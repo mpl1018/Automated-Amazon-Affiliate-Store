@@ -25,27 +25,9 @@ For example:
 > Note: I used an scraper instead of Amazon PA API because this api is only avalaible for stores that already have a great amount of sells (not my case).
 ## Getting Started 🚀
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+- 1-[Click here for the vue project instructions](https://github.com/mpl1018/Automated-Amazon-Affiliate-Store/tree/master/app)
+- 2-[Click here for the python sript instructions](https://github.com/mpl1018/Automated-Amazon-Affiliate-Store/tree/master/bot)
 
-#### Prerequisites 
----
-First of all you will need Python 3.7.5, other versions of python doesn't work with firebase-admin. You will also need pip. 
-Then run: 
-```
-pip install selenium
-pip install firebase-admin 
-```
-#### Build Setup 
----
-After you clone the repository, you can set up the Vue app:
-``` 
-cd app
-#install dependencies
-npm install
-#serve with hot reload at localhost:8080
-npm run serve
-#build for production with minification
-npm run build
-```
 ### Built with 
 - [Vue.js](https://vuejs.org/)
 - [Firebase](https://firebase.google.com/?hl=es)

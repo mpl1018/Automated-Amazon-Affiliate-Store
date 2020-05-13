@@ -1,4 +1,7 @@
-# app
+# Vue app
+
+First of all you will have to create an 'keys.js' file exporting a variable with all your firebase configuration options. 
+After that you can go with the project setup. 
 
 ## Project setup
 ```
