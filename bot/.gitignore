@@ -1,2 +1,7 @@
-secrets.py
-key.json
+.vscode
+/__pycache__
+chromedriver.exe
+key.json 
+secrets.py 
+debug.log
+bot.py 
