@@ -55,9 +55,7 @@ class amazonBot():
         buscarButton.click()
 
     def procesarResultado(self):
-        try: main = self.driver.find_element_by_xpath('//*[@id="search"]/div[1]/div[2]/div/span[4]/div[2]')
-        except Exception: 
-            main = self.driver.find_element_by_xpath('//*[@id="search"]/div[1]/div[2]/div/span[4]/div[1]')
+        main = self.driver.find_element_by_tag_name('body')
         articulos = main.find_elements_by_class_name('s-result-item')
         for articulo in articulos:
             try:
@@ -124,4 +122,4 @@ bot = amazonBot()
 bot.login()
 bot.buscar()
 bot.procesarResultado()
-
+bot.borrarAntiguo()
